@@ -1,2 +1,2 @@
-# bell-twitter
+# Bell Twitter Assignment
 Twitter Assignment

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Change the radius to get more tweets around your location."; ObjectID = "1RH-BZ-QHP"; */
+"1RH-BZ-QHP.text" = "Change the radius to get more tweets around your location.";
+
+/* Class = "UILabel"; text = "No tweets found nearby. Please try again later !"; ObjectID = "Ddi-sq-W71"; */
+"Ddi-sq-W71.text" = "No tweets found nearby. Please try again later !";
+
+/* Class = "UILabel"; text = "No tweets found nearby. Please try again later !"; ObjectID = "L1U-Q8-V86"; */
+"L1U-Q8-V86.text" = "No tweets found nearby. Please try again later !";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "LuA-cN-uab"; */
+"LuA-cN-uab.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "dkk-if-9ig"; */
+"dkk-if-9ig.text" = "Settings";
+
+/* Class = "UILabel"; text = "Tweet"; ObjectID = "i8i-zD-EcW"; */
+"i8i-zD-EcW.text" = "Tweet";
+
+/* Class = "UILabel"; text = "10 km"; ObjectID = "uWv-XG-hHd"; */
+"uWv-XG-hHd.text" = "10 km";

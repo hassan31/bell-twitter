@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TweetCell" id="KGk-i7-Jjw" customClass="TweetCell" customModule="Twitter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFJ-tY-YTK">
+                        <rect key="frame" x="10" y="10" width="355" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user_profile" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-EQ-0uk">
+                                <rect key="frame" x="10" y="5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1f7-69-JpY"/>
+                                    <constraint firstAttribute="width" constant="40" id="clY-Re-PEI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Muhammad Hassan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buu-zm-wxI">
+                                <rect key="frame" x="65" y="5" width="280" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@hassan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mx6-AK-xCh">
+                                <rect key="frame" x="65" y="28" width="280" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@hassan" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mET-FT-tjc">
+                                <rect key="frame" x="65" y="56" width="280" height="17.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mET-FT-tjc" firstAttribute="top" secondItem="mx6-AK-xCh" secondAttribute="bottom" constant="10" id="7Ku-fq-7sw"/>
+                            <constraint firstItem="mx6-AK-xCh" firstAttribute="top" secondItem="buu-zm-wxI" secondAttribute="bottom" constant="5" id="KES-UR-jGx"/>
+                            <constraint firstItem="3ge-EQ-0uk" firstAttribute="leading" secondItem="tFJ-tY-YTK" secondAttribute="leading" constant="10" id="L80-8H-BNV"/>
+                            <constraint firstItem="3ge-EQ-0uk" firstAttribute="top" secondItem="tFJ-tY-YTK" secondAttribute="top" constant="5" id="QxP-UH-TDW"/>
+                            <constraint firstItem="buu-zm-wxI" firstAttribute="leading" secondItem="3ge-EQ-0uk" secondAttribute="trailing" constant="15" id="ReO-xF-OwY"/>
+                            <constraint firstItem="buu-zm-wxI" firstAttribute="top" secondItem="3ge-EQ-0uk" secondAttribute="top" id="RsU-ve-C4e"/>
+                            <constraint firstItem="mx6-AK-xCh" firstAttribute="leading" secondItem="buu-zm-wxI" secondAttribute="leading" id="SMs-yJ-Eyw"/>
+                            <constraint firstAttribute="bottom" secondItem="mET-FT-tjc" secondAttribute="bottom" constant="16.5" id="W8t-Si-YCi"/>
+                            <constraint firstItem="mET-FT-tjc" firstAttribute="leading" secondItem="mx6-AK-xCh" secondAttribute="leading" id="XDL-VA-eij"/>
+                            <constraint firstAttribute="trailing" secondItem="buu-zm-wxI" secondAttribute="trailing" constant="10" id="o2Z-YW-VZl"/>
+                            <constraint firstItem="mx6-AK-xCh" firstAttribute="trailing" secondItem="buu-zm-wxI" secondAttribute="trailing" id="wa0-bv-Ffk"/>
+                            <constraint firstItem="mET-FT-tjc" firstAttribute="trailing" secondItem="mx6-AK-xCh" secondAttribute="trailing" id="yJ2-mg-7u9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="tFJ-tY-YTK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ZSs-Ox-pqW"/>
+                    <constraint firstAttribute="trailing" secondItem="tFJ-tY-YTK" secondAttribute="trailing" constant="10" id="cnC-wU-fYQ"/>
+                    <constraint firstItem="tFJ-tY-YTK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="pTU-GW-vha"/>
+                    <constraint firstAttribute="bottom" secondItem="tFJ-tY-YTK" secondAttribute="bottom" constant="5" id="toH-Rq-Ndg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="tFJ-tY-YTK" id="qQh-mE-sdF"/>
+                <outlet property="ivProfile" destination="3ge-EQ-0uk" id="4XV-B1-MV4"/>
+                <outlet property="lblDisplayName" destination="mx6-AK-xCh" id="jdj-u2-Zkl"/>
+                <outlet property="lblName" destination="buu-zm-wxI" id="vrk-z3-O1j"/>
+                <outlet property="lblTweet" destination="mET-FT-tjc" id="Erq-cf-yHT"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="132.58928571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_user_profile" width="40" height="40"/>
+    </resources>
+</document>

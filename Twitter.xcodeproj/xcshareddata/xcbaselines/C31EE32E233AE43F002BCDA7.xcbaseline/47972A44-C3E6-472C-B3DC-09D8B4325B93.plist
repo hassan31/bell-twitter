@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>SettingsViewTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>9.0166e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Sep 24, 2019 at 9:20:15 PM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>TweetDetailTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>8.8287e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Sep 24, 2019 at 9:20:15 PM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>TweetsMapViewTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>4.0154e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Sep 24, 2019 at 9:20:15 PM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>TweetsViewTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>2.9162e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Sep 24, 2019 at 9:20:15 PM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>TwitterTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.3179e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Sep 24, 2019 at 9:20:15 PM</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
